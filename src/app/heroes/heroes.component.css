@@ -1,7 +1,3 @@
-.selected {
-    background-color: #CFD8DC !important;
-    color: white;
-}
 .heroes {
     list-style: none;
     margin: 0 0 2em 0;
@@ -17,10 +13,6 @@
     padding: 0.3em 0;
     height: 1.6em;
     border-radius: 4px;
-}
-.heroes li.selected:hover {
-    background-color: #BBD8DC;
-    color: white;
 }
 .heroes li:hover {
     color: #607D8B;
@@ -40,4 +32,38 @@
     height: 1.8em;
     margin-right: 0.8em;
     border-radius: 4px 0 0 4px;
+}
+
+.heroes a {
+    text-decoration: none;
+    color: #888;
+    position: relative;
+    display: block;
+    width: 250px;
+}
+.heroes a:hover {
+    color: #607D8B;
+}
+
+button {
+    background-color: #eee;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover {
+    background-color: #cfd8dc;
+}
+button.delete {
+    position: relative;
+    left: 230px;
+    top: -40px;
+    background-color: gray !important;
+    color: white;
+}
+input {
+    padding: 6px 4px;
 }
